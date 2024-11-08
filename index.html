@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--links para fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2? family= VT323 & display=swap" rel="stylesheet">
+
+    <!--links para a pastas-->
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/rolagem.css">
+
+    <!--título do contéudo da pagina-->
+    <title>Portfolio-Suelen Bueno</title>
+</head>
+
+<body>
+    <main class="cartao"> <!--conteúdo principal que envolve as inforções-->
+        <div class="minhas-informacoes"> <!--conteudo e informações contempladas no cartão-->
+            <img src="./src/imagens/Foto-perfil-suelen.jpg" alt="foto de perfil" />
+            <h1 class="nome">Suelen Bueno</h1> <!--titulo do conteudo-->
+            <h2 class="cargo">Desenvolvedora Frontend Júnior</h2> <!--objetivo, mas pode ser usado como segundo titulo-->
+        </div>
+
+        <div class="conteudo">
+            <ul class="abas"> <!--lista usada para dividir o conteúdo  em abas-->
+                <li class="aba selecionado" id="sobre-mim"> <!--lista com titulo das abas-->
+                    <img src="./src/imagens/sobre.gif" alt="icone de sobre mim">
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="./src/imagens/coracao.gif" alt="icone de redes sociais">
+                </li>
+            </ul>
+
+            <div class="informacoes-abas"> <!--agrupamento de titulos-->
+                <div class="informacao selecionado" id="informacao-sobre-mim">
+                    <h3 class="sub-titulo">Sobre</h3>
+
+                    <div class="descricao">
+                        <p>Olá! Meu nome é Suelen Bueno, seja bem vindo(a) ao meu portfólio!</p>
+
+                        <p>
+                            Sou formada em biologia e estou migrando para a área de Frontend. Atualmente estou cursando Tecnólogo em Análise e Desenvolvimento de Sistemas da Informação. Concluí um curso básico de UI e UX pela Origamid e estou aprimorando minhas habilidades em front-end por meio do curso online Dev em Dobro. Já desenvolvi projetos utilizando <span>HTML, CSS e JavaScript</span>, como este projeto.
+                            Estou disponível para novos projetos, entre em contato para conversarmos.
+                        </p> <!--span usado para colocar destaque no css-->
+                    </div>
+                </div>
+
+
+                <div class="informacao" id="informacao-minhas-redes">
+                    <h3 class="sub-titulo">Minhas redes</h3>
+
+                    <ul class="redes-sociais">
+                        <li>
+                            <a href="https://docs.google.com/document/d/1NpIEO4S_Xt6mTgTKuNVKrI40dK64mcah/edit" target="_blank" class="curriculo">Curriculo</a>
+                        </li> <!--target=_"blank" usado para abrir uma aba ou ou janela-->
+                        <li>
+                            <a href="https://www.linkedin.com/in/suelen-bueno-716a2bb1/" target="_blank" class="linkedin">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Suelenfb" target="_blank" class="github">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
